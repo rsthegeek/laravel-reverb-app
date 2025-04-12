@@ -4,28 +4,27 @@
 
 Follow the steps below to install and run the project successfully:
 
-1.  **Copy the `.env.example` file to `.env`**
-
-    ```bash
-    cp .env.example .env
-    ```
-
-2.  **Generate a key for your project**
-
-    ```bash
-    php artisan key:generate
-    ```
-
-3.  **Install all PHP dependencies**
+1.  **Install all PHP dependencies**
 
     ```bash
     composer install
     ```
 
-4.  **Install all JavaScript dependencies**
+2.  **Install all JavaScript dependencies**
 
     ```bash
     npm install
+    ```
+3.  **Copy the `.env.example` file to `.env`**
+
+    ```bash
+    cp .env.example .env
+    ```
+
+4.  **Generate a key for your project**
+
+    ```bash
+    php artisan key:generate
     ```
 
 5.  **Run migrations**
@@ -36,9 +35,9 @@ Follow the steps below to install and run the project successfully:
 
 6.  **Run the Queue via a terminal**
 
-        ```
-        php artisan queue:listen
-        ```
+    ```
+    php artisan queue:listen
+    ```
 
 7.  **Run Reverb via a terminal**
 
